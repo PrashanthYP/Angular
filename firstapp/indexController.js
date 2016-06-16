@@ -16,7 +16,7 @@ controller('ctrl', function($scope)
   $scope.deleteRow = function(row)
         {    
             $scope.rows.splice($scope.rows.indexOf(row),1);
-            //add comment 2
+            //add comment
         };
 
   $scope.plural = function (tab)
